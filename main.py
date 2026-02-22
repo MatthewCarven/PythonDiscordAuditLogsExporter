@@ -8,7 +8,7 @@ class AuditBot(commands.Bot):
     def __init__(self):
         super().__init__(command_prefix="!", intents=discord.Intents.default())
         # Replace the numbers below with your actual Server ID
-        self.testing_server_id = 1392865518246957206 
+        self.testing_server_id = yourserveridgoeshere
 
     async def setup_hook(self):
         # Syncing to a specific server makes the command show up instantly
@@ -83,4 +83,5 @@ async def export_logs(interaction: discord.Interaction, server_id: str = None, l
 
 
 # Run the bot (Replace this with your actual token)
-bot.run("")
+
+bot.run("Your bot token goes here")
