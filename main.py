@@ -83,4 +83,4 @@ async def export_logs(interaction: discord.Interaction, server_id: str = None, l
 
 
 # Run the bot (Replace this with your actual token)
-bot.run("YOUR_BOT_TOKEN_HERE")
+bot.run("")
