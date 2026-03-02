@@ -1,2 +1,2 @@
 # PythonDiscordAuditLogsExporter
-Python Discord Audi tLog sExporter
+Python Discord Audit Logs Exporter
